@@ -1,0 +1,23 @@
+Espresso-based drink designed to resemble coffee brewed in a drip filter, considered popular in the United States of America. (AMERICANO)
+
+Perfectly steamed milk, rich espresso and a delicate topping of foamed milk. (latte)
+
+Combines espresso with a small amount of steamed milk and a deep layer of foam for stronger coffee flavor.  (cappuccino)
+
+Full flavored, concentrated form of coffee that is served in ''shots''. (espresso)
+
+Espresso-based coffee that has an even mix of liquid milk and smooth velvet foam. (flat white) 
+
+Made by pouring a double-shot of espresso or ristretto over hot water. It is more strongly flavored. (long black)
+
+Cocktail consisting of hot coffe, Irish whiskey, sugar, and topped with thick cream. (irish coffee)
+
+Cornerstone of Italian coffee culture, basically an espresso with a small amount of foamed milk on top. (macchiato)
+
+Strong black coffe served in glass topped whit whipped cream, it comes with powder sugar served separately. (vienna)
+
+Espresso shot (double) with a combination of either steamed milk and cocoa powder or chocolate milk and sometimes topped with whipped cream.  (mochaccino)
+
+Italian coffee-based dessert witha scoop of vanilla gelato or ice cream topped or ''drowned'' with a shot of hot espresso. (affogato)
+ 
+
