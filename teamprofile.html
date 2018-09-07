@@ -37,18 +37,27 @@
 		<div class="drea">
 			<div class="overlay1 plasticcover">
 			<center><h2 class="websters">Andrea Suarez</h2></center>
+					<img src="../image/teamprofile/drea.jpg"></img>
 					<p class="description1">Andrea Suarez is a coffee enthusiast. She grew up smelling the aroma of coffee having a parents who drinks it everyday. 
 					She believes, as a student, caffeine is often a necessity. It motivates one to get up and face another day.</p>
-			<img src="../image/teamprofile/drea.jpg"></img>
+			<div id="mgaimage">
+					<a href="https://www.facebook.com/su.realle?fb_dtsg_ag=AdwP1g8bevmfL65dttlEO6_SeHCqnun3ICM0vgGlukNdtA%3AAdyJo1gTfm2vOnL5N_ACpC1oym03TiUMGl3HhP1qX2dxKw"><img src="../image/icon/facebook-logo.png" class="icon1"></a></img>
+					<a href="https://www.instagram.com/su.realle/"><img src="../image/icon/instagram.png" class="icon1"></a></img>
+			</div>
 			</div>
 		</div>
 		<div class="gia">
 			<div class="overlay1 plasticcover">
 			<center><h2 class="websters">Gia Abella</h2></center>
-			
+
 			<p class="description1">Gia Abella is a student from De La Salle University and much like the other students she is in love and is addicted to coffee. 
 			Which led to the creation of this website, and in it is everything you need to know about coffee.</p>
 			<img src="../image/teamprofile/gia.jpg"></img>
+				<div id="mgaimage">
+								<a href="https://www.facebook.com/hmmm.oki?fb_dtsg_ag=AdwP1g8bevmfL65dttlEO6_SeHCqnun3ICM0vgGlukNdtA%3AAdyJo1gTfm2vOnL5N_ACpC1oym03TiUMGl3HhP1qX2dxKw"><img src="../image/icon/facebook-logo.png" class="icon1"></a></img>
+								<a href="https://www.instagram.com/giyahhhhh/"><img src="../image/icon/instagram.png" class="icon1"></a></img>
+
+				</div>
 			</div>
 		</div>
 		<div class="angela">
@@ -59,6 +68,11 @@
 			The workload led her to realize how much caffeine could help her stay awake and alert. 
 			Due to her frequent coffee consumption, she wanted to know more about it, specifically its roots. 
 			This led to research and creation of this site, along with three other like-minded individuals.</p>
+			<div style="margin-bottom:13px;"></div>
+			<div id="mgaimage">
+								<a href="https://www.facebook.com/profile.php?id=100006288975792"><img src="../image/icon/facebook-logo.png" class="icon1"></a></img>
+								<a href="https://www.instagram.com/angelaterese/"><img src="../image/icon/instagram.png" class="icon1"></a></img>
+				</div>
 			</div>
 			
 		</div>
@@ -70,6 +84,10 @@
 			<p class="description1">Honing his skills from a known technical school, Joaquin Bautista a student of DLSU
 			has been slowly becoming coffee-dependent. Because of his background with programming, they gather to share their
 			findings about Coffee.</p>
+			<div id="mgaimage">
+					<a href="https://www.facebook.com/bautistajakeee"><img src="../image/icon/facebook-logo.png" class="icon1"></a></img>
+					<a href="https://www.instagram.com/bautistajakeee/"><img src="../image/icon/instagram.png" class="icon1"></a></img>
+				</div>
 			</div>
 		</div>
 		
@@ -109,19 +127,42 @@
 	margin-top:5px;
 	margin-left:10px;
 	}
-
 	.icon:hover{
 	background-color:#C6C6C6;
 	cursor:pointer;
 	transition: .5s;
 	}
+	.overlay1:hover .icon1{
+		opacity:1;
+	}
+	
+	#mgaimage{
+		position: relative;
+		bottom: 60px;
+		left: 340px;
+	}
+	
+	.icon1{
+	height:30px;
+	width:30px;
+	margin-top:0px;
+	margin-left:10px;
+	margin-bottom:50px;
+	opacity:0;
+	transition: 0.5s;
+	}
+	
+	.icon1: active{
+	background-color:#C6C6C6;
+	cursor:pointer;
+	opacity:1;
+	}
+	
 	#images{
 		position: absolute;
 		top: 193px;
 		left: 130px;
 	}
-
-
 	img{
 		height: 300px;
 		width: 300px;
@@ -178,16 +219,13 @@
 		height:auto;
 }
     }
-
     a{
 		text-decoration:none;
 		color:white;
 	}
-
     .plasticcover{
         opacity:0.8;
     }
-
     body{
         overflow-x: hidden;
         background-image: url("../image/coffee.jpg");
@@ -200,17 +238,13 @@
 		max-width:1500px;
 		height:auto;
     }
-
     .ungbiglanglalabasnamagic{
 		height: 70px;
         display: none;
-
     }
-
     .button2:hover .ungbiglanglalabasnamagic{
         display: block;
     }
-
     .navbar{
         background-color: #562b00;
         height: 50px;
@@ -234,21 +268,15 @@
 		height:auto;
 		text-decoration:none;
     }
-
     .button1:hover{
-
         background-color: #BE9645;
         transition:0.3s;
     }
-
     .button1:active{
-
         background-color:white;
-
         color:#BE9645;
     }
     .button2{
-
         padding: 16px;
         background-color:#562b00;
         color: white;
@@ -263,37 +291,27 @@
     }
     .button2:hover{
         background-color: #BE9645;
-
         transition:0.3s;
     } 
-
     .dropbtn{
         transition:0.3s;
     }
-
     .droptxt{
 		font-size: 14.5px;
         text-decoration: none;
         color: white;
     }
-
     .droptxt:hover{
-
         text-decoration:underline;
-
         transition:0.3s;
     }
-
     .droptxt:active{
-
         color:#E9C57D;
     }
-
     h2{
         font-family:helvetica;
 		color:white;
     }
-
     #name{
         background-color:#C6C6C6;
         padding:25px;
@@ -310,7 +328,6 @@
 	.overlay1:hover .description1{
 		opacity:1;
 	}
-
 	.overlay1:hover h2{
 		opacity: 1;
 	}
@@ -337,7 +354,6 @@
 		left:200px;
     }
 	.description3{
-
         position:absolute;
         margin:auto;
         font-family:helvetica;
@@ -347,7 +363,6 @@
 		top:825px;
     }
 	.description4{
-
         position:absolute;
         margin:auto;
         font-family:helvetica;
@@ -362,37 +377,25 @@
 		left: 350px;
 		transition: ease 1s;
     }
-
 	
 	 .buttoninfo{
-
         padding: 10px;
-
         background-color:black;
-
         color: white;
-
         border:none;
-
         position: absolute;
-
         width:65px;
 		
 		text-decoration: none;
-
         color: white;
 		
 		font-family:helvetica;
 		
 		font-size:13px;
     }
-
   
-
     .buttoninfo:hover{
-
         background-color:#BE9645;
-
         transition:0.3s;
     }
 	
@@ -402,17 +405,13 @@
 	}
 	
 	.buttoninfo2{
-
         padding: 10px;
-
         background-color:black;
         color: white;
         border:none;
         left:820px;
-
         position: relative;
     }
-
     .buttoninfo2:hover{
         background-color:#BE9645;
         transition:0.3s;
@@ -422,23 +421,15 @@
 		background-color:white;
 		color: #BE9645; 
 	}
-
 	.buttoninfo3{
-
         padding: 10px;
-
         background-color:black;
-
         color: white;
-
         border:none;
-
         position: absolute;
-
         width:30px;
 		
 		text-decoration: none;
-
         color: white;
 		
 		font-family:helvetica;
@@ -446,7 +437,6 @@
 		font-size:13px;
     }
 	.buttoninfo3:hover{
-
         background-color:#BE9645;
         transition:0.3s;
     }
@@ -469,9 +459,3 @@
 </style>
     </body>
 </html>
-
-
-
-
-
-
